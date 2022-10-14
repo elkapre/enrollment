@@ -1,6 +1,6 @@
 <template>
 
-<div>Index</div>
+<div>About</div>
 
 
 
@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'About',
 }
 </script>
