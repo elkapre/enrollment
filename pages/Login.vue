@@ -37,10 +37,10 @@
           <div class="row g-2 mb-3">
             <div class="col-6 fs-6" style="width:50px">
               Don't have account?
-              <a href="#" class=" ">Register Here</a> 
+              <NuxtLink to="/Register"  >Register Here</NuxtLink>
             </div>
             <div class="col-6" >
-            <button type="submit" class="btn btn-primary bg-danger border-warning form-control" >Submit</button>
+            <NuxtLink to="/Home" class="btn btn-primary bg-danger border-warning form-control" >Login</NuxtLink>
             </div>  
           </div>          
         </div>        
@@ -54,30 +54,8 @@
 
 <script>
 export default {
-  name: 'Enrollment',
+  name: 'Login',
 }
 </script>
 
-<style>
-    .custom-row
-    {
-      height:800px;
-    }
 
-    .custom-col
-    {
-      height:500px;
-    }
-
-    .custom-img
-    {
-      height:100px;
-      widows:100px;
-    }
-
-    .custom-fs
-    {
-      font-size: 40px;
-    }
-
-    </style>
