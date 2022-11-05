@@ -1,13 +1,5 @@
 <template>
-
-<div>home page</div>
-
-
-
+  <div>
+    <AddStudents />
+  </div>
 </template>
-
-<script>
-export default {
-  name: 'Home',
-}
-</script>

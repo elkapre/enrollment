@@ -1,6 +1,11 @@
 <template>
 
-<div>About</div>
+<div>
+  <AppHeader />
+  <div class="container text-center fs-weight-heavy">
+    About Page Here
+  </div>
+  </div>
 
 
 
@@ -8,6 +13,7 @@
 
 <script>
 export default {
+ 
   name: 'About',
 }
 </script>
